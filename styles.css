@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fjalla+One&display=swap');
 
 * {
-    outline: auto 1px red;
+    /* outline: auto 1px red; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -73,7 +73,6 @@ button:hover {
 }
 
 .presentation {
-    background-color: #ffffff;
     margin: 100px 100px;
     display: flex;
     align-items: center;
@@ -105,7 +104,7 @@ button:hover {
 .travel {
     font-family: "Fjalla One";
     font-size: 2em;
-    color: #477989;
+    color: #git init;
 }
 
 h2 {
@@ -125,9 +124,21 @@ h2 {
         gap: 3.5em;
 }
 
-.places {
-    object-fit: cover;
-    height: 250px;
-    width: 250px;
+.places img {
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    transition: all 0.5s ease 0s;
+}
 
+.places img:hover {
+    transition: all 0.5s ease 0s;
+    transform: scale(1.1);
+}
+
+.about {
+    margin: 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
