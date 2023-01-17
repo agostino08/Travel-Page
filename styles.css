@@ -9,6 +9,12 @@
     padding: 0;
 }
 
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+
 body {
     background-color: #ffffff;
 }
@@ -29,7 +35,7 @@ header {
     align-items: center;
     padding: 30px 10%;
     height: 200px;
-    width: auto;
+    width: 100%;
 }
 
 
@@ -80,8 +86,8 @@ button:hover {
 }
 
 .text {
-    padding: 200px;
-    margin: 0%;
+    width: 50%;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -89,8 +95,8 @@ button:hover {
     gap: 2em;
 }
 
-.backpack {
-    width: 100%;
+.presentation img {
+    width: 50%;
     object-fit: contain;
     max-width: 800px;
 }
@@ -197,8 +203,9 @@ h2 {
 }
 
 .days {
-    display: flex;   
-    padding: 2px 16px;
+   display: flex;
+   align-items: center;  
+   
 
 }
 
